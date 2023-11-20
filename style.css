@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;1,6..12,200&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;1,6..12,200&family=Roboto:wght@500&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+.logo{
+    border-radius: 50%;
+}
+.nav-link{
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link:hover{
+    text-decoration: underline white 2px;
+}
+
+.contact{
+    margin-left: 100px;
+}
+
+@media (max-width: 991px) {
+    .btn{
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+}
+
+.home{
+    display: flex;
+    padding-top: 80px;
+}
+
+.left-home-pic{
+    width: 100%;
+    text-align: center;
+    height: 350px;
+} 
+
+.left-home-pic img{
+    width: 200px;
+    height: 250px;
+}
+
+.right-home-details{
+    color: white;
+    padding-right: 10px;
+}
+
+@media (max-width: 750px){
+    .home{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .left-home-pic{
+        width: 100%;
+        text-align: center;
+        height: 280px;
+    }
+    .right-home-details{
+        color: white;
+        padding-left: 10px;
+    }
+}
+
+
+ /*web portal  */
+.design{
+    display: flex;
+}
+
+.left-design{
+    position: relative;
+    bottom: 14px;
+    height: 30px;
+    width: 200%;
+    transform: rotate(-1deg);
+}
+
+.right-design{
+    position: relative;
+    bottom: 14px;
+    height: 30px;
+    width: 50%;
+    transform: rotate(4deg);
+}
+
+.about{
+    margin: 40px 0 0 30px;
+    width: 50%;
+}
+
+.about p{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.grades{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    height: 160px;
+}
+
+.college{
+    background-color: #198754;
+    border-radius: 20px;
+    height: 170px;
+    padding: 20px;
+    color: #96e196;
+    width: 35%;
+}
+
+.high-school{
+    background-color: #198754;
+    border-radius: 20px;
+    height: 170px;
+    padding: 20px;
+    color: #96e196;
+    width: 35%;
+}
+
+@media (max-width: 680px) {
+    .about{
+        width: 70%;
+    }
+
+    .grades{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin: 0px;
+    }
+    .college{
+        width: 80%;
+        height: 170px;
+        margin-top: 170px;
+    }
+    
+    .high-school{
+        width: 80%;
+        margin-top: 10px;
+    }
+}
+
+.skill{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.green-underline{
+    height: 3px;
+    width: 100px;
+    border-radius: 2px;
+    background-color: green;
+}
+
+.skill-details{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.left-details{
+    width: 20%;
+    text-align: center;
+}
+.middle-details{
+    width: 20%;
+    text-align: center;
+}
+.right-details{
+    width: 20%;
+    text-align: center;
+}
+
+.skill-details div div img{
+    height: 100px;
+    border-radius: 50%;
+}
+.skill-details div div p{
+    color: white;
+    font-weight: bold;
+}
+
+@media (max-width: 680px) {
+    .skill{
+        margin-top: 200px;
+    }
+}
+@media (max-width: 450px) {
+    .skill-details{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+.card-body{
+    color: white;
+}
+.card-body ul{
+    font-weight: 300;
+}
+
+.project .card{
+    margin-top: 20px;
+}
+.project-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.github-link{
+    width: 100%;
+}
+
+
+.contact-footer{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+.footer-intro{
+    width: 70%;
+    height: 70px;
+    border-radius: 2px;
+    position: relative;
+    bottom: 20px;
+    box-shadow: -10px -10px 6px rgb(156, 196, 156);
+    margin: auto;
+    padding:  5px 0 0 20px;
+}
+
+.social-icon a svg{
+    color: #198754; 
+    margin-left:15px;
+    cursor: pointer;
+}
